@@ -8,6 +8,12 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build",
-    "export": "next build && next start"
+    "export": "next build && next export -o extensions/dist"
+
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.5",
+    "@types/react": "^16.9.11",
+    "typescript": "^3.6.4"
   }
 }
