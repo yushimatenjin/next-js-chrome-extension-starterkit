@@ -31,3 +31,4 @@ yarn export
 # 開発について
 
 - `Link`は可能ですが、`URL`の指定を`.html`まで記述する必要があります.
+- アプリ名などを指定する場合には`dist/manifest.json`を書き換えます.
